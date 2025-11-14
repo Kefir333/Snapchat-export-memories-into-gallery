@@ -40,8 +40,21 @@ python -m pip install piexif mutagen
 ## Prepare the Script
 
 1. Open a text editor (Notepad, VS Code, etc.)
-2. Paste the Python script below.
+2. Paste the Python script in the .py file I attached.
 3. Save as `set_snapchat_dates.py` in the folder with your images and JSON.
+
+---
+
+## Example Folder Structure
+
+```
+snapchat-fixer/
+├── set_snapchat_dates.py
+├── memories_history.json
+├── out/                 # created by script
+├── example_image1.jpg
+└── example_image2
+```
 
 ---
 
@@ -56,19 +69,6 @@ python -m pip install piexif mutagen
    & "C:\path\to\python.exe" "D:\path\to\folder\set_snapchat_dates.py"
    ```
 3. Finalized images will appear in an `out/` folder which the script creates with correct EXIF timestamps.
-
----
-
-## Example Folder Structure
-
-```
-snapchat-fixer/
-├── set_snapchat_dates.py
-├── memories_history.json
-├── out/                 # created by script
-├── example_image1.jpg
-└── example_image2
-```
 
 ---
 
