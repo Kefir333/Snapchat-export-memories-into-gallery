@@ -1,5 +1,6 @@
 # Snapchat Memories EXIF Fixer
 
+DISCLAIMER: PLEASE MAKE A BACKUP OF ALL FILES YOU WILL WANT TO EDIT: THIS IS UNTESTED AS I HAD TO USE A EDITED VERSION OF THIS WHOLE THING BUT YOU GET THE GIST. IF YOU ENCOUNTER PROBLEMS ASK GPT, YOU WILL COME OUT WITH EVERYTHING WORKING EVENTUALLY
 ## Overview
 
 This Python script updates the EXIF `DateTimeOriginal` of images exported from Snapchat Memories so that your photos will appear chronologically in your phone's gallery. Videos (MP4s) retain the correct timestamps.
